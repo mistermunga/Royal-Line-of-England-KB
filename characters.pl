@@ -44,3 +44,14 @@ gender(adela_comtesse_de_blois, female).
 gender(cecilia_abbesse, female).
 gender(constance_duchesse_de_bretagne, female).
 
+
+% House de Blois 
+gender(stephen_comte_de_blois, male).
+
+gender(william_comte_de_sully, male).
+gender(odo_de_blois, male).
+gender(theobald_ii_comte_de_champagne, male).
+gender(stephen_de_blois, male).
+
+gender(eustace_iv_comte_de_boulogne, male).
+gender(william_i_comte_de_boulogne, male).
