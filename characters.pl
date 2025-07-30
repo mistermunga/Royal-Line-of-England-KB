@@ -63,3 +63,15 @@ gender(william_i_comte_de_boulogne, male).
 
 % House de Blois - females
 gender(matilda_i_comtesse_de_boulogne, female).
+
+
+% House Plantagenet
+gender(henry_plantagenet, male).
+gender(geoffrey_comte_de_nantes, male).
+gender(william_fitzempress, male).      % brothers of King Henry II, sons of empress Maud
+
+gender(william_ix_comte_de_poitiers, male).
+gender(henry_jeune_roi, male).
+gender(richard_coeur_de_lion, male).
+gender(geoffrey_ii_duc_de_bretagne, male).
+gender(king_john, male).
