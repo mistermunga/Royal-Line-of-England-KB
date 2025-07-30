@@ -80,3 +80,62 @@ parent_of(Father, Child) :-
 parent_of(Mother, Child) :- 
     children_of(_, Mother, Children), 
     member(Child, Children).
+
+father_of(Father, Child):-
+    parent_of(Father, Child),
+    gender(Father, male).
+
+mother_of(Mother, Child):-
+    parent_of(Mother, Child),
+    gender(Mother, female).
+
+ancestor(X, Y):- parent_of(X, Y).
+ancestor(X, Y):- parent_of(X, A), ancestor(A, Y).
+
+descendant(X, Y):- ancestor(Y, X).
+
+
+% Nuclear families
+siblings(X, Y):-
+    parent_of(P, X),
+    parent_of(P, Y),
+    X \= Y.
+
+brother_to(X, Y):-
+    siblings(X, Y),
+    gender(X, male),
+    X \= Y.
+
+sister_to(X, Y):-
+    siblings(X, Y),
+    gender(X, female),
+    X \= Y.
+
+
+% Extended Family
+grandparent_to(X, Y):-
+    parent_of(X, P), 
+    parent_of(P, Y).
+
+grandmother_to(X, Y):-
+    grandparent_to(X, Y),
+    gender(X, female).
+
+grandfather_to(X, Y):-
+    grandparent_to(X, Y),
+    gender(X, male).
+
+cousins(X, Y):-
+    grandparent_to(G, X),
+    grandparent_to(G, Y),
+    \+ siblings(X, Y),
+    X \= Y.
+
+uncle_to(X, Y):-
+    parent_of(P, Y),
+    brother_to(X, P).
+
+aunt_to(X, Y):-
+    parent_of(P, Y),
+    sister_to(X, P).
+
