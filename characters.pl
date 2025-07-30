@@ -56,8 +56,9 @@ gender(adela_comtesse_de_blois, female).
 gender(cecilia_abbesse, female).
 gender(constance_duchesse_de_bretagne, female).
 
-% Henry Beauclerc's daughter
+% Henry Beauclerc's daughter and wife respectively
 gender(empress_maud, female).
+gender(edith_of_scotland, female).
 
 
 
@@ -111,3 +112,34 @@ gender(isabella_d_angouleme, female).
 gender(joanne_reine_de_scotland, female).
 gender(empress_isabella, female).
 gender(alienor_d_pembroke, female).
+
+
+
+% === SPOUSAL RELATIONS ===
+
+% House de Normandie
+
+married(rollo, poppa).
+married(william_longsword, sprota).
+married(richard_the_fearless, gunner).
+married(richard_the_good, judith_de_rennes).
+married(robert_le_magnifique, herleva).
+married(william_the_conqueror, matilda_de_flandre).
+married(adela_comtesse_de_blois, stephen_comte_de_blois).
+married(henry_beauclerc, edith_of_scotland).
+married(empress_maud, henry_v_holy_roman_emperor).
+married(empress_maud, geoffrey_de_anjou).
+
+
+% House de Blois
+
+married(stephen_de_blois, matilda_i_comtesse_de_boulogne).
+
+
+% Plantagenets
+
+married(henry_plantagenet, alienor_d_aquitaine).
+married(king_john, isabella_d_angouleme).
+
+
+married(F, M):- married(M, F).
