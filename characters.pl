@@ -58,7 +58,7 @@ gender(constance_duchesse_de_bretagne, female).
 
 % Henry Beauclerc's daughter and wife respectively
 gender(empress_maud, female).
-gender(edith_of_scotland, female).
+gender(edith_of_scotland, female).      % also known as matilda / maud
 
 
 
