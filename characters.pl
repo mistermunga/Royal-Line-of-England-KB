@@ -19,10 +19,10 @@ gender(richard_iii_de_normandie, male).
 
 gender(william_the_conqueror, male).
 
-man(william_rufus).
-man(robert_courtheuse).
-man(richard_de_normandie).
-man(henry_beauclerc).
+gender(william_rufus, male).
+gender(robert_courtheuse, male).
+gender(richard_de_normandie, male).
+gender(henry_beauclerc, male).
 
 
 % House de Normandie - Females
