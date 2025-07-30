@@ -109,6 +109,6 @@ gender(joanne_reine_de_sicile, female).
 gender(isabella_d_angouleme, female).
 
 % daughters of John and Isabella
-gender(joanne_reine_de_scotland, female).
+gender(joanne_reine_de_ecosse, female).
 gender(empress_isabella, female).
-gender(alienor_d_pembroke, female).
+gender(alienor_de_pembroke, female).
