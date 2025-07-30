@@ -29,6 +29,9 @@ married(king_john, isabella_d_angouleme).
 
 married(F, M):- married(M, F).
 
+husband_to(M, W):- married(M, W), gender(M, male).
+wife_to(W, M):- married(W, M), gender(W, female).
+
 
 
 % === FAMILIAL RELATIONS ===
@@ -140,3 +143,16 @@ parent_of(alienor_d_aquitaine, king_john).
 parent_of(alienor_d_aquitaine, matilda_duchesse_de_saxe).
 parent_of(alienor_d_aquitaine, eleanor_reine_de_castille).
 parent_of(alienor_d_aquitaine, joanne_reine_de_sicile).
+
+
+parent_of(king_john, henry_iii).
+parent_of(king_john, richard_king_of_the_romans).
+parent_of(king_john, joanne_reine_d_ecosse).
+parent_of(king_john, empress_isabella).
+parent_of(king_john, alienor_de_pembroke).
+
+parent_of(isabella_d_angouleme, henry_iii).
+parent_of(isabella_d_angouleme, richard_king_of_the_romans).
+parent_of(isabella_d_angouleme, joanne_reine_d_ecosse).
+parent_of(isabella_d_angouleme, empress_isabella).
+parent_of(isabella_d_angouleme, alienor_de_pembroke).
