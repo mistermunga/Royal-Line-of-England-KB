@@ -25,6 +25,9 @@ gender(robert_courtheuse, male).
 gender(richard_de_normandie, male).
 gender(henry_beauclerc, male).
 
+gender(henry_v_holy_roman_emperor, male).
+gender(geoffrey_de_anjou, male).  % both married to empress maud
+
 % House de Normandie - Females
 gender(poppa, female).
 
@@ -43,6 +46,8 @@ gender(matilda_de_flandre, female).
 gender(adela_comtesse_de_blois, female).
 gender(cecilia_abbesse, female).
 gender(constance_duchesse_de_bretagne, female).
+
+gender(empress_maud, female).
 
 
 % House de Blois 
