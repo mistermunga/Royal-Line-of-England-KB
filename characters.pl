@@ -1,10 +1,9 @@
-% This is a set of characters from the historical viking Rollo to Edward III of England
+% This is a set of characters from the historical viking Rollo to John of England
 
 % === GENDER DECLARATIONS ===
 
 
 % House de Normandie
-
 gender(rollo, male).        % scandinavian adventurer
 
 % son of Rollo and Poppa
@@ -36,6 +35,7 @@ gender(henry_beauclerc, male).
 gender(henry_v_holy_roman_emperor, male).
 gender(geoffrey_de_anjou, male).
 
+
 % House de Normandie - Females
 gender(poppa, female).
 
@@ -60,6 +60,7 @@ gender(constance_duchesse_de_bretagne, female).
 gender(empress_maud, female).
 
 
+
 % House de Blois 
 gender(stephen_comte_de_blois, male).       % married Adela, one of William the Conqueror's daughters
 
@@ -73,8 +74,10 @@ gender(stephen_de_blois, male).     % became King
 gender(eustace_iv_comte_de_boulogne, male).
 gender(william_i_comte_de_boulogne, male).
 
+
 % House de Blois - females
 gender(matilda_i_comtesse_de_boulogne, female).
+
 
 
 % House Plantagenet
@@ -89,6 +92,11 @@ gender(richard_coeur_de_lion, male).
 gender(geoffrey_ii_duc_de_bretagne, male).
 gender(king_john, male).
 
+% of the bad King John and Isabella of Angouleme
+gender(henry_iii, male).
+gender(richard_king_of_the_romans, male).
+
+
 % House PLantagenet - Females
 gender(alienor_d_aquitaine, female).        % Henry Plantagenet's Queen
 
@@ -96,3 +104,10 @@ gender(alienor_d_aquitaine, female).        % Henry Plantagenet's Queen
 gender(matilda_duchesse_de_saxe, female).
 gender(eleanor_reine_de_castille, female).
 gender(joanne_reine_de_sicile, female).
+
+gender(isabella_d_angouleme, female).
+
+% daughters of John and Isabella
+gender(joanne_reine_de_scotland, female).
+gender(empress_isabella, female).
+gender(alienor_d_pembroke, female).
