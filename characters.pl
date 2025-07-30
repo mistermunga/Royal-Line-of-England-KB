@@ -2,6 +2,7 @@
 
 % === GENDER DECLARATIONS ===
 
+
 % House de Normandie
 gender(rollo, male).
 
@@ -23,7 +24,6 @@ gender(william_rufus, male).
 gender(robert_courtheuse, male).
 gender(richard_de_normandie, male).
 gender(henry_beauclerc, male).
-
 
 % House de Normandie - Females
 gender(poppa, female).
@@ -55,3 +55,6 @@ gender(stephen_de_blois, male).
 
 gender(eustace_iv_comte_de_boulogne, male).
 gender(william_i_comte_de_boulogne, male).
+
+% House de Blois - females
+gender(matilda_i_comtesse_de_boulogne, female).
