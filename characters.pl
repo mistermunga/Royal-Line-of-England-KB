@@ -90,4 +90,9 @@ gender(geoffrey_ii_duc_de_bretagne, male).
 gender(king_john, male).
 
 % House PLantagenet - Females
-gender(alienor_d_aquitaine, female).
+gender(alienor_d_aquitaine, female).        % Henry Plantagenet's Queen
+
+% daughters of Henry Plantagenet
+gender(matilda_duchesse_de_saxe, female).
+gender(eleanor_reine_de_castille, female).
+gender(joanne_reine_de_sicile, female).
