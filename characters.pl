@@ -143,3 +143,28 @@ married(king_john, isabella_d_angouleme).
 
 
 married(F, M):- married(M, F).
+
+
+
+% === FAMILIAL RELATIONS ===
+
+parent_of(rollo, william_longsword).
+parent_of(poppa, william_longsword).
+
+
+parent_of(william_longsword, richard_the_fearless).
+parent_of(sprota, richard_the_fearless).
+
+
+parent_of(richard_the_fearless, emma_de_normandie).
+parent_of(richard_the_fearless, richard_the_good).
+parent_of(richard_the_fearless, robert_archeveque_de_rouen).
+parent_of(richard_the_fearless, mauger_de_corbeil).
+
+parent_of(gunner, emma_de_normandie).
+parent_of(gunner, richard_the_good).
+parent_of(gunner, robert_archeveque_de_rouen).
+parent_of(gunner, mauger_de_corbeil).
+
+
+parent_of(richard_the_good, richard_iii_de_normandie).
