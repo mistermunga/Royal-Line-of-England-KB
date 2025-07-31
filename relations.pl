@@ -9,6 +9,7 @@ married(rollo, poppa).
 married(william_longsword, sprota).
 married(richard_the_fearless, gunner).
 married(richard_the_good, judith_de_rennes).
+married(richard_the_good, papia_d_envermeu).
 married(robert_le_magnifique, herleva).
 married(william_the_conqueror, matilda_de_flandre).
 married(adela_comtesse_de_blois, stephen_comte_de_blois).
@@ -47,7 +48,8 @@ children_of(william_longsword, sprota, [richard_the_fearless]).
 
 children_of(richard_the_fearless, gunner, [emma_de_normandie, richard_the_good, robert_archeveque_de_rouen, mauger_de_corbeil]).
 
-children_of(richard_the_good, judith_de_rennes, [richard_iii_de_normandie, william_de_talou, robert_le_magnifique]).
+children_of(richard_the_good, judith_de_rennes, [richard_iii_de_normandie, robert_le_magnifique]).
+children_of(richard_the_good, papia_d_envermeu, [william_de_talou]).
 
 children_of(robert_le_magnifique, herleva, [adelaide_comtesse_de_aumale, william_the_conqueror]).
 

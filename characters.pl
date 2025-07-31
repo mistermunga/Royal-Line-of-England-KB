@@ -44,7 +44,8 @@ gender(sprota, female).
 gender(gunner, female).
 
 gender(emma_de_normandie, female).      % of Gunner and Richard the Fearless
-gender(judith_de_rennes, female).       
+gender(judith_de_rennes, female).
+gender(papia_d_envermeu, female).       % second wife of richard the good       
 
 gender(herleva, female).
 
