@@ -1,0 +1,3 @@
+:- [characters].
+:- [relations].
+:- [dynasties].
