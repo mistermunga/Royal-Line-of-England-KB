@@ -1,86 +1,58 @@
 # Royal Line of England – Knowledge Base
 
-This is a **Knowledge Base built entirely in Prolog** that stores familial and dynastic information from the historical Viking **Rollo of Normandie (9th century)** to **King John of England (13th century)**.
-
-The Knowledge Base also includes information about the **temporal titles** held and the **dates of reigns**.
+A knowledge base built entirely in Prolog, storing familial and dynastic information from **Rollo of Normandy** (9th century) through to **King John of England** (13th century). It covers temporal titles held and the dates of associated reigns.
 
 ---
 
-## 📦 Prerequisites
+## Prerequisites
 
-You will need to have an implementation of Prolog installed. This project is tested using **SWI-Prolog**.
+You will need an implementation of Prolog installed. This project is tested with **SWI-Prolog**.
 
-### 🖥️ Windows & macOS
+**Windows & macOS** — Download and install the latest stable release from [swi-prolog.org](https://www.swi-prolog.org/download/stable). During or after installation, ensure the executable is added to your system PATH.
 
-1. Download the latest version of SWI-Prolog from their official website:  
-   👉 [https://www.swi-prolog.org/download/stable](https://www.swi-prolog.org/download/stable)
-2. Install it and **make sure to add the executable to your system PATH**.
-
-### 🐧 Linux (Ubuntu/Debian)
-
-Open a terminal and run:
+**Linux (Ubuntu/Debian)** — Install via the official PPA:
 
 ```bash
 sudo apt-add-repository ppa:swi-prolog/stable
 sudo apt-get update
 sudo apt-get install swi-prolog
-````
+```
 
 ---
 
-## 🚀 Cloning and Running the Knowledge Base
+## Getting Started
 
-1. Open your terminal and clone the repository:
+Clone the repository and move into the project directory:
 
 ```bash
 git clone https://github.com/mistermunga/Royal-Line-of-England-KB.git
-```
-
-> ⚠️ **Note:** Make sure you are cloning the full repository, not a specific tree or branch URL.
-
-2. Move into the project directory:
-
-```bash
 cd Royal-Line-of-England-KB
 ```
 
-3. Run the main Prolog file:
+> **Note:** Clone the full repository URL above, not a specific branch or tree link.
+
+Then load the knowledge base:
 
 ```bash
 swipl main.pl
 ```
 
-## 🔍 Example Queries & Demos
+---
 
-Once the Knowledge Base is loaded using `swipl main.pl`, you can run a variety of demonstration and analytical queries right out of the box.
+## Queries
 
-### 🚀 Quick Start Demonstrations
+### Demonstrations
 
-- To run a full demonstration of the system's capabilities:
-
-```prolog
-?- demo.
-````
-
-* To run the full showcase including dynastic transitions and what-if succession models:
+The knowledge base ships with several built-in demo predicates:
 
 ```prolog
-?- showcase.
+?- demo.              % Full demonstration of system capabilities
+?- showcase.          % Dynastic transitions and what-if succession models
+?- plantagenet_tree.  % Plantagenet family tree
+?- sample_queries.    % Guided examples to get you started
 ```
 
-* To view the Plantagenet family tree:
-
-```prolog
-?- plantagenet_tree.
-```
-
-* To see sample queries you can try:
-
-```prolog
-?- sample_queries.
-```
-
-### 🧠 Interesting Queries to Try
+### Example Queries
 
 ```prolog
 ?- eldest_child(william_the_conqueror, X).
@@ -93,13 +65,10 @@ Once the Knowledge Base is loaded using `swipl main.pl`, you can run a variety o
 ?- dynasty(normandie, Members).
 ```
 
-These queries explore succession, inheritance, dynasties, and timelines of major historical figures.
+These cover succession rules, inheritance patterns, dynastic membership, and historical timelines.
 
----
-
-For a complete glossary of all predicates and their usage, run:
+For a complete reference of all available predicates, run:
 
 ```prolog
 ?- glossary.
 ```
-
